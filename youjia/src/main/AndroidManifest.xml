@@ -1,0 +1,89 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.fdcapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".activity.CusReportActivity"
+            android:label="@string/title_activity_cus_report" >
+        </activity>
+        <activity
+            android:name=".activity.CusrepSubmitActivity"
+            android:label="@string/title_activity_withdrawcash" >
+        </activity>
+        <activity
+            android:name=".activity.WithdrawcashActivity"
+            android:label="@string/title_activity_withdrawcash" >
+        </activity>
+        <activity
+            android:name=".activity.CersActivity"
+            android:label="@string/title_activity_cers" >
+        </activity>
+        <activity
+            android:name=".activity.CommActivity"
+            android:label="@string/title_activity_comm" >
+        </activity>
+        <activity
+            android:name=".activity.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name=".activity.CommListActivity"
+            android:label="@string/title_activity_comm_list" >
+        </activity>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".activity.CuspresentActivity"
+            android:label="@string/title_activity_cuspresent" >
+        </activity>
+        <activity
+            android:name=".activity.CrefundActivity"
+            android:label="@string/title_activity_crefund" >
+        </activity>
+        <activity
+            android:name=".activity.MainmanagerActivity"
+            android:label="@string/title_activity_crefund" >
+        </activity>
+        <activity
+            android:name=".activity.MainadviserActivity"
+            android:label="@string/title_activity_crefund" >
+        </activity>
+        <activity
+            android:name=".activity.MainsalesmanActivity"
+            android:label="@string/title_activity_crefund" >
+        </activity>
+        <activity
+            android:name="com.example.fdcapp.activity.CusrportSonActivity"
+            android:label="@string/title_activity_cusrport_son" >
+        </activity>
+        <activity
+            android:name="com.example.fdcapp.activity.RetrievepasswordActivity"
+            android:label="@string/title_activity_retrievepassword" >
+        </activity>
+        <activity
+            android:name="com.example.fdcapp.activity.UpdatepwdActivity"
+            android:label="@string/title_activity_updatepwd" >
+        </activity>
+    </application>
+
+</manifest>

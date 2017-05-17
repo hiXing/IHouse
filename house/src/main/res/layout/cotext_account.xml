@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:layout_width="330dp"
+    android:layout_height="50dp"
+    android:background="@drawable/editext_myslyte">
+    
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:background="@drawable/account_pic"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="3dp"/>
+
+    <EditText
+        android:id="@+id/account_editext"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="@string/account_text"
+        android:textColorHint="#656565"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:background="@drawable/editext_myslyte"/>
+
+</LinearLayout>

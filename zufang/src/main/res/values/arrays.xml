@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="course_tabs">
+        <item>作业</item>
+        <item>资料</item>
+        <item>公告</item>
+        <item>测试</item>
+    </array>
+
+    <array name="search_tabs">
+        <item>作业</item>
+        <item>公告</item>
+        <item>测试</item>
+    </array>
+
+    <array name="location_first">
+        <item>全厦门</item>
+        <item>思明</item>
+        <item>湖里</item>
+        <item>集美</item>
+        <item>杏林</item>
+        <item>海沧</item>
+        <item>同安</item>
+        <item>翔安</item>
+        <item>厦门周边</item>
+    </array>
+    <array name="address_first">
+        <item>思明</item>
+        <item>湖里</item>
+        <item>集美</item>
+        <item>杏林</item>
+        <item>海沧</item>
+        <item>同安</item>
+        <item>翔安</item>
+        <item>厦门周边</item>
+    </array>
+    <array name="location_siming">
+        <item>全思明</item>
+        <item>火车站</item>
+        <item>嘉禾路</item>
+        <item>松柏</item>
+        <item>湖滨南路</item>
+        <item>莲坂</item>
+        <item>莲前西路</item>
+        <item>文灶</item>
+        <item>莲前东路</item>
+    </array>
+    <array name="location_huli">
+        <item>全湖里</item>
+        <item>江头</item>
+        <item>金尚路</item>
+        <item>南山路</item>
+        <item>大唐世家</item>
+        <item>康乐</item>
+        <item>SM附近</item>
+    </array>
+    <array name="location_jimei">
+        <item>全集美</item>
+        <item>集源路</item>
+        <item>滨海西大道</item>
+        <item>石鼓路</item>
+        <item>同集南路</item>
+        <item>孙坂路</item>
+        <item>印斗路</item>
+        <item>乐海路</item>
+        <item>嘉庚体育馆</item>
+        <item>万达广场</item>
+        <item>孙厝</item>
+        <item>集美学村</item>
+    </array>
+    <array name="location_xinglin">
+        <item>全杏林</item>
+        <item>杏东路</item>
+        <item>杏西路</item>
+        <item>杏南路</item>
+        <item>杏北路</item>
+        <item>灌口</item>
+        <item>桥头</item>
+    </array>
+    <array name="location_haicang">
+        <item>全海沧</item>
+        <item>沧林路</item>
+        <item>海沧生活区</item>
+        <item>沧虹路</item>
+        <item>海富路</item>
+        <item>新阳工业区</item>
+        <item>钟林路</item>
+    </array>
+
+    <array name="house_price">
+        <item>不限</item>
+        <item>500以下</item>
+        <item>500-1000元</item>
+        <item>1000-1500元</item>
+        <item>1500-2000元</item>
+        <item>2000-3000元</item>
+        <item>3000-4500元</item>
+        <item>4500元以上</item>
+        <item>自定义价格</item>
+    </array>
+
+    <array name="house_mode">
+        <item>不限</item>
+        <item>整租</item>
+        <item>合租</item>
+    </array>
+
+    <array name="house_release_type">
+        <item>租房</item>
+        <!--<item>二手房</item>-->
+        <item>新房</item>
+        <item>单间出租</item>
+        <item>商铺</item>
+        <item>商业地产</item>
+    </array>
+    
+    <array name="house_renovation_type">
+        <item>毛坯</item>
+        <item>简单装修</item>
+        <item>精装修</item>
+        <item>豪华装修</item>
+        <item>中等装修</item>
+    </array>
+
+    <array name="house_orientation">
+        <item>东向</item>
+        <item>西向</item>
+        <item>南向</item>
+        <item>北向</item>
+    </array>
+
+</resources>

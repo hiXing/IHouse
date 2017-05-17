@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">"KanFang "</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="hint">提示</string>
+    <string name="search">搜索</string>
+
+
+    <string name="hint_tool_bar_search">请输入小区、区域</string>
+
+
+
+
+    <string-array name="bottom_bar_array" >
+        <item>首页</item>
+        <item>直播间</item>
+        <item>1v1找房</item>
+        <item>我的</item>
+    </string-array>
+</resources>

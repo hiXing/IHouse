@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/img_cusrep_tv"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:src="@color/bgcolor" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <TextView
+            android:id="@+id/lname_cusrep_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="大唐世家"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/vol_cusper_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/addr_cusper_tv"
+            android:layout_marginTop="5dp"
+            android:text="推荐 10 人  成交 10 人"
+            android:textColor="@color/yfc_zi"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/submit_info_bt"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/tel_cusper_tv"
+            android:layout_alignBottom="@+id/tel_cusper_tv"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="9dp"
+            android:text="报备"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/price_cusper_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/state_wcash_tv"
+            android:layout_alignBottom="@+id/state_wcash_tv"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:text="4980"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/state_wcash_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/vol_cusper_tv"
+            android:layout_alignBottom="@+id/vol_cusper_tv"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/price_cusper_tv"
+            android:text="一口价"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/addr_cusper_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/submit_info_bt"
+            android:layout_marginTop="5dp"
+            android:text="邕宁区龙福路1号"
+            android:textColor="@color/yfc_zi"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tel_cusper_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lname_cusrep_tv"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/lname_cusrep_tv"
+            android:text="0771-6725355"
+            android:textColor="@color/yfc_zi"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

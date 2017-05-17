@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/dp_55"
+        android:layout_height="@dimen/dp_55"
+        android:layout_margin="@dimen/dp_16"
+        android:src="@drawable/user_head"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广州市荔湾区中山七路侨兴新街8号"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_16"
+        android:layout_toRightOf="@+id/image"
+        android:layout_alignTop="@+id/image"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#686868"
+        android:text="2016年07月27日 18：20"
+        android:textSize="@dimen/sp_14"
+        android:layout_alignBottom="@+id/image"
+        android:layout_toRightOf="@+id/image"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/name_cpre_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="李四"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sex_cpre_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/name_cpre_tv"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="男              136xxxx7564"
+        android:textColor="@color/yfc_zi"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/time_cpre_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sex_cpre_tv"
+        android:layout_alignBottom="@+id/sex_cpre_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="1016-05-04 15：15：06"
+        android:textColor="@color/yfc_zi"
+        android:textSize="11sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sex_cpre_tv"
+        android:background="@drawable/yfc_line"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/remark_cpre_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="备注：想看个好房子"
+        android:textColor="@color/yfc_zi"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/sname_cpre_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/remark_cpre_tv"
+        android:layout_alignBottom="@+id/remark_cpre_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:text="赵伟"
+        android:textColor="@color/yfc_zi"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/state_cpre_bt"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="7dp"
+        android:text="到场"
+        android:textSize="10sp" />
+
+</RelativeLayout>

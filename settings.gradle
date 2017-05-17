@@ -1,0 +1,1 @@
+include ':app', ':house', ':jishou', ':core_ng', ':widget_sky', ':youjia', ':findhouse', ':zufang'

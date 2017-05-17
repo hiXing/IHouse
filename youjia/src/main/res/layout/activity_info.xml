@@ -1,0 +1,369 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yfc_bg"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_bar" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout06"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yfc_tb_line" >
+
+        <TextView
+            android:id="@+id/rnum_crefund_tv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="姓名"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/name_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/rnum_crefund_tv"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="phone"
+            android:text="赵伟"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout05"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/reason_crefund_tv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="性别"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/sex_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/reason_crefund_tv"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="phone"
+            android:text="男"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout04"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/rtime_crefund_tv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="手机号"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/phone_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/rtime_crefund_tv"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="phone"
+            android:text="13346545458"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yfc_tb_line" >
+
+        <TextView
+            android:id="@+id/ctime_crefund_tv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="地址"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/addr_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/ctime_crefund_tv"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="phone"
+            android:text="广西人才大厦"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout07"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="身份证"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/pcoder_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/TextView08"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="phone"
+            android:text="4522291************"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yfc_tb_line" >
+
+        <TextView
+            android:id="@+id/addr_crefund_tv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="开户号"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/oaacode_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/addr_crefund_tv"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="phone"
+            android:text="赵伟"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/cnum_crefund_tv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="卡号"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/card_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/cnum_crefund_tv"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="phone"
+            android:text="62284555332548"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/name_psonal_tv"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="银行名称"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/rankname_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/name_psonal_tv"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:inputType="phone"
+            android:text="中国银行"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/val_info_rl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="验证码"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/name_clist_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/valcode_info_et"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:text="获取验证码" />
+
+        <EditText
+            android:id="@+id/valcode_info_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView07"
+            android:layout_alignBottom="@+id/TextView07"
+            android:layout_toRightOf="@+id/TextView07"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="left|center_vertical"
+            android:hint="请输入验证码"
+            android:inputType="phone"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submit_info_bt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="15dp"
+        android:text="保存" />
+
+</LinearLayout>

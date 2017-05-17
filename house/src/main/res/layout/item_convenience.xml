@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="wrap_content"
+android:layout_height="20dp"
+android:layout_marginLeft="@dimen/dp_30">
+<ImageView
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:background="@drawable/shape_time_et"
+    android:src="@drawable/ic_done_24dp" />
+<TextView
+    android:id="@+id/fac"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:text="配置"
+    android:textSize="@dimen/sp_16"
+    android:layout_marginLeft="@dimen/dp_4"/>
+
+</LinearLayout>

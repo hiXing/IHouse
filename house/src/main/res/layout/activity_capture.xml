@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+
+        <silverlion.com.house.qrcode.mining.app.zxing.view.ViewfinderView
+            android:id="@+id/viewfinder_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#262626"
+        android:layout_gravity="top">
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/back"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/back_btn"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫描"
+            android:textSize="25dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+
+</FrameLayout>

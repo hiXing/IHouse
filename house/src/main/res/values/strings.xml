@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">House</string>
+    <string name="account_text">手机号码/邮箱</string>
+    <string name="password_text">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="forgetthepassword">忘记密码？</string>
+    <string name="forget">忘记密码</string>
+    <string name="register">注册</string>
+    <string name="city">中国</string>
+    <string name="number">+86</string>
+    <string name="phone">请输入您的手机号</string>
+    <string name="email_input">请输入邮箱地址</string>
+    <string name="register_password">请创建6-12位的密码</string>
+    <string name="note">注册即代表您同意</string>
+    <string name="contract">《看房码服务协议》</string>
+    <string name="email">邮箱注册</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="yourphone">您的手机号</string>
+    <string name="notphone">该用户不存在</string>
+    <string name="verification">请输入验证码</string>
+    <string name="getverification">获取验证码</string>
+    <string name="action">立即找回</string>
+    <string name="ok">ok</string>
+    <string name="verificationNO">验证码不正确！</string>
+    <string name="ForgetEmail">邮箱找回</string>
+    <string name="youremail">您的邮箱地址</string>
+    <string name="sendEmail">邮件已发送到您的邮箱</string>
+    <string name="hintEmail">请查看邮箱并按提示操作重置密码</string>
+    <string name="actionEmail">前往邮箱</string>
+    <string name="seek">搜索</string>
+    <string name="put_verfiy">填写验证码</string>\
+    <string name="commit">提交</string>
+    <string name="personal">个人信息</string>
+    <string name="name">姓名</string>
+    <string name="name_input">请输入真实姓名</string>
+    <string name="sex">性别</string>
+    <string name="address">地址</string>
+    <string name="address_input">请输入现居地址</string>
+    <string name="callphone">联系电话</string>
+    <string name="phone_input">请输入联系电话</string>
+    <string name="Email">Email</string>
+    <string name="kepp">保存</string>
+    <string name="area">区号</string>
+    <string name="add_from_gallery">通过相册添加</string>
+    <string name="camera">相机</string>
+    <string name="depo">我的收藏</string>
+    <string name="book">我的预约</string>
+    <string name="safety">账号与安全</string>
+    <string name="about_us">关于OPNE DAY CODE</string>
+    <string name="exit">退出登录</string>
+    <string name="nature">性质</string>
+    <string name="house_code">房产编号</string>
+    <string name="place">地区</string>
+    <string name="house_class">房产类型</string>
+    <string name="house_status">房产状态</string>
+    <string name="price">价格</string>
+    <string name="immigrant">可否移民</string>
+    <string name="usable_area">实用面积</string>
+    <string name="bookhouse">预约看房</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="scan_text">请对准二维码</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

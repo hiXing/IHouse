@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">IHouse</string>
+    <!-- <string name="app_name">阳光租房</string> -->
+    <string name="home_top">核实真房源，无中介，无佣金，全程保障平台！</string>
+    <string name="house_type">户&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;型:</string>
+    <string name="str_contact_1">本平台所有房源均为实名认证发布，为保障租户的切身权益，请在与房东实地看房满意后点击[预付订金]进入下一交易环节！</string>
+    <string name="str_contact_2">请全程使用平台完成交易，平台将会全权保障您的资金和租房安全直到合同结束。</string>
+    <string name="str_contact_3">本平台发布房源与租房成交	，均不收取任何费用！合约期内全程保障双方的利益及纠纷。切勿私下交易，以免财物、权益受损！</string>
+    <string name="str_contact_4">一旦支付订金，您享有签订此房源的资格，房东确认订金后您获得此房源签订合同资格。房东未确认订金或不履行交易则订金可退回。</string>
+    <string name="str_contact_card">为保障大家的权益，本平台所有交易必须先实名认证，请务必上传真实信息。</string>
+    <string name="str_contact_email">在线合同具备同等法律效应，邮件合同为方便大家使用，非必填。\n合同一式三份，甲乙双方各一份，阳光租房平台留底一份。\n邮件合同免费。</string>
+
+    <string-array name="array_jushi">
+        <item>不限</item>
+        <item>一居</item>
+        <item>两居</item>
+        <item>三居</item>
+        <item>四居</item>
+        <item>五居</item>
+        <item>五居以上</item>
+    </string-array>
+    
+    <string-array name="array_money">
+        <item>1000以下</item>
+        <item>1000-2000</item>
+        <item>2000-3000</item>
+        <item>3000-5000</item>
+        <item>5000-8000</item>
+        <item>8000以上</item>
+    </string-array>
+    
+    <string-array name="array_fangshi">
+        <item>不限</item>
+        <item>整租</item>
+        <item>合租</item>
+    </string-array>
+    <!-- <string-array name="array_zhuangxiu">
+        <item>不限</item>
+        <item>毛坯</item>
+        <item>中等装修</item>
+        <item>精装修</item>
+        <item>豪装</item>
+    </string-array> -->
+    <string-array name="array_type">
+        <item>不限</item>
+        <item>普通住宅</item>
+        <item>公寓</item>
+        <item>别墅</item>
+        <item>平房/四合院</item>
+        <item>床位</item>
+    </string-array>
+    <string-array name="array_room">
+        <item>主卧</item>
+        <item>次卧</item>
+        <item>隔断间</item>
+    </string-array>
+    <string-array name="array_sex">
+        <item>不限</item>
+        <item>男士</item>
+        <item>女士</item>
+        <item>限夫妻</item>
+    </string-array>
+    <string-array name="array_fixture">
+        <item>不限</item>
+        <item>毛坯</item>
+        <item>简装</item>
+        <item>中等装修</item>
+        <item>精装修</item>
+        <item>豪装</item>
+    </string-array>
+    <string-array name="array_tese">
+        <item>不限</item>
+        <item>地铁便利</item>
+        <item>学区房</item>
+        <item>专供白领</item>
+        <item>随时入住</item>
+        <item>特色风格</item>
+        <item>景观房</item>
+        <item>独门独卫</item>
+        <item>朝南景观</item>
+    </string-array>
+    
+    <string-array name="array_rent_type">
+        <item>付一押一</item>
+        <item>付二押一</item>
+        <item>付三押一</item>
+        <item>半年押一</item>
+        <item>一年押一</item>
+    </string-array>
+    
+    <string-array name="array_near">
+        <item>一千米内</item>
+        <item>两千米内</item>
+        <item>三千米内</item>
+    </string-array>
+    <!-- 索引1-19是家电  20以后是家具 -->
+    <string-array name="array_funi">
+        <item>空格从1开始</item>
+        <item>空调</item>
+        <item>洗衣机</item>
+        <item>冰箱</item>
+        <item>电视机</item>
+        <item>微波炉</item>
+        <item>宽带</item>
+        <item>有线</item>
+        <item>热水器</item>
+        <item>暖气</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>预留</item>
+        <item>床</item>
+        <item>沙发</item>
+        <item>衣柜</item>
+        <item>电脑桌</item>
+        <item>电视柜</item>
+        <item>床头柜</item>
+        <item>桌子</item>
+        <item>椅子</item>
+    </string-array>
+</resources>

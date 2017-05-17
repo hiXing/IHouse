@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/name_wcash_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="工商银行（1234）王祥飞"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/balance_wcash_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/name_wcash_tv"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="余额：5648.22　　提现：500.00"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/remake_wcash_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/balance_wcash_tv"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:hint="备注：20字内"
+        android:textColor="@color/yfc_zi"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/time_wcash_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:text="2016.5.12"
+        android:textColor="@color/yfc_zi" />
+
+    <TextView
+        android:id="@+id/state_wcash_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/time_wcash_tv"
+        android:layout_below="@+id/balance_wcash_tv"
+        android:text="处理中"
+        android:textColor="@color/red" />
+
+</RelativeLayout>

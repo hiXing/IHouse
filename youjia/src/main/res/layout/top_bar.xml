@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+         android:id="@+id/top_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/yfc_tb_line" >
+
+        <Button
+            android:id="@+id/top_right_button"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@null"
+            android:onClick="submit"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/top_mid_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="我的快件"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/left_top_iv"
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:onClick="back"
+            android:src="@drawable/back" />
+
+    </RelativeLayout>
+
+</LinearLayout>

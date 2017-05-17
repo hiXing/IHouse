@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style parent="Animation.AppCompat.DropDownUp" name="Animation.PopupWindow"> </style>
+
+    <declare-styleable name="ProcessButton">
+        <attr name="pb_textProgress" format="string"/>
+        <attr name="pb_textComplete" format="string"/>
+        <attr name="pb_textError" format="string"/>
+        <attr name="pb_colorProgress" format="color"/>
+        <attr name="pb_colorComplete" format="color"/>
+        <attr name="pb_colorError" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="FlatButton">
+        <attr name="pb_colorPressed" format="color"/>
+        <attr name="pb_colorNormal" format="color"/>
+        <attr name="pb_cornerRadius" format="dimension"/>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@id/detailTitlebar"
+        layout="@layout/titlebar_detail" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_gray_round_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    style="@style/TextSmallBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="您的身份：" />
+
+                <RadioGroup
+                    android:id="@+id/rg_identi"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/stroke_yellow_round"
+                    android:orientation="horizontal"
+                    android:padding="1dp" >
+
+                    <RadioButton
+                        android:id="@+id/rb_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/rb_left_selector"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="房东"
+                        android:textColor="@color/rb_text_selector_top"
+                        android:textSize="@dimen/text_small" />
+
+                    <RadioButton
+                        android:id="@+id/rb_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/rb_right_selector"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="二房东"
+                        android:textColor="@color/rb_text_selector_top"
+                        android:textSize="@dimen/text_small" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_gray_round_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    style="@style/TextSmallBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出租方式：" />
+
+                <RadioGroup
+                    android:id="@+id/rg_type"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/stroke_yellow_round"
+                    android:orientation="horizontal"
+                    android:padding="1dp" >
+
+                    <RadioButton
+                        android:id="@+id/rb_type_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/rb_left_selector"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="整租"
+                        android:textColor="@color/rb_text_selector_top"
+                        android:textSize="@dimen/text_small" />
+
+                    <RadioButton
+                        android:id="@+id/rb_type_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/rb_right_selector"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="合租"
+                        android:textColor="@color/rb_text_selector_top"
+                        android:textSize="@dimen/text_small" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_gray_round_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    style="@style/TextSmallBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="房源地址：" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    style="@style/TextSmallGray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_arrow_right"
+                    android:gravity="center_vertical"
+                    android:text="一旦填写不可修改" />
+                
+            </LinearLayout>
+
+            <include
+                android:id="@+id/layout_part"
+                layout="@layout/layout_part_rent" />
+
+            <LinearLayout
+                android:id="@+id/ll_tese"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_gray_round_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    style="@style/TextSmallBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="房源特色：" />
+
+                <TextView
+                    android:id="@+id/tv_tese"
+                    style="@style/TextSmallGray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/ic_arrow_right"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="选填" />
+            </LinearLayout>
+
+            <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_gray_round_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    style="@style/TextSmallBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓        名：" />
+
+                <EditText
+                    style="@style/TextSmallGray"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="合同签订人" />
+
+                <RadioGroup
+                    android:id="@+id/rg_sex"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/stroke_yellow_round"
+                    android:orientation="horizontal"
+                    android:padding="1dp" >
+
+                    <RadioButton
+                        android:id="@+id/rb_male"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/rb_left_selector"
+                        android:button="@null"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="先生"
+                        android:textColor="@color/rb_text_selector_top"
+                        android:textSize="@dimen/text_small" />
+
+                    <RadioButton
+                        android:id="@+id/rb_female"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/rb_right_selector"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="女士"
+                        android:textColor="@color/rb_text_selector_top"
+                        android:textSize="@dimen/text_small" />
+                </RadioGroup>
+            </LinearLayout> -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_gray_round_corner"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    style="@style/TextSmallBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="手机号码：" />
+
+                <com.sky.widget.SHEditText
+                    android:id="@+id/et_phone"
+                    style="@style/TextSmallBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_add"
+                style="@style/TextMicroWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_orange_round"
+                android:text="新增房间" 
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/TextBigWhite"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_orange_round"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="下一步" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

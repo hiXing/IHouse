@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/drawable_blue" />
+
+        <TextView
+            android:id="@+id/name_crefund_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="客户首付信息"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="姓名"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/name_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="李四"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/rnum_crefund_tv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="手机号"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/phone_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请输入姓名"
+            android:inputType="phone"
+            android:text="13678547564"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/rtime_crefund_tv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="房号"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/fcode_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请输入房号"
+            android:inputType="phone"
+            android:text="1103"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/addr_crefund_tv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="定金金额"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/emonry_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请输入定金金额"
+            android:inputType="phone"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="首付金额"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/fmonry_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请输入首付金额"
+            android:inputType="phone"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/reason_crefund_tv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="返租"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/pcode_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请选择"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/ctime_crefund_tv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="返租期限"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/area_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请选择"
+            android:inputType="phone"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/cnum_crefund_tv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="返租金额"
+            android:textColor="@color/yfc_zi"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/time_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="phone"
+            android:textSize="14sp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/yfc_line" >
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="开始返租时间"
+            android:textColor="@color/yfc_zi"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/rtime_finfo_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请输入"
+            android:inputType="phone"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_finfo_bt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:text="提交" />
+
+</LinearLayout>

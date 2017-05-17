@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/name_clist_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="李四"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/phone_clist_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/name_clist_tv"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="136xxxx7564        大唐世家"
+        android:textColor="@color/yfc_zi"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/time_clist_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/phone_clist_tv"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:text="佣金结算周期"
+        android:textColor="@color/yfc_zi"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/remake_clist_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/time_clist_tv"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:text="备注：20字内"
+        android:textColor="@color/yfc_zi"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/price_clist_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:text="4980"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sname_cpre_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/price_clist_tv"
+        android:layout_alignBottom="@+id/price_clist_tv"
+        android:layout_toLeftOf="@+id/price_clist_tv"
+        android:text="一口价"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FDCapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_cus_report">CusReportActivity</string>
+    <string name="title_activity_cusrep_submit">CusrepSubmitActivity</string>
+    <string name="title_activity_withdrawcash">WithdrawcashActivity</string>
+    <string name="title_activity_cers">CersActivity</string>
+    <string name="title_activity_comm">CommActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_comm_list">CommListActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_cuspresent">CuspresentActivity</string>
+    <string name="title_activity_crefund">CrefundActivity</string>
+    <string name="title_activity_cusrport_son">CusrportSonActivity</string>
+    <string name="title_activity_retrievepassword">RetrievepasswordActivity</string>
+    <string name="title_activity_updatepwd">UpdatepwdActivity</string>
+
+</resources>

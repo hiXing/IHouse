@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lele.kanfang.ui.home.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            app:pager_animation="Accordion"
+            app:auto_cycle="true"
+            app:indicator_visibility="visible"
+            app:pager_animation_span="1100"
+            android:layout_height="160dp"/>
+
+        <include layout="@layout/content_home_mode" />
+
+        <include layout="@layout/content_home_list" />
+
+        <include layout="@layout/content_home_list2" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
+

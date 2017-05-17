@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 3D animation -->
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0" />
+            <enum name="y" value="1" />
+            <enum name="z" value="2" />
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction" />
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+
+    <!-- Material SwitchButton -->
+    <declare-styleable name="MaterialSwitchButton">
+        <attr name="onDrawable" format="reference" />
+        <attr name="offDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="thumb_margin" format="dimension|reference" />
+        <attr name="thumb_marginTop" format="dimension|reference" />
+        <attr name="thumb_marginBottom" format="dimension|reference" />
+        <attr name="thumb_marginLeft" format="dimension|reference" />
+        <attr name="thumb_marginRight" format="dimension|reference" />
+        <attr name="thumb_width" format="dimension|reference" />
+        <attr name="thumb_height" format="dimension|reference" />
+        <attr name="onColor" format="color|reference" />
+        <attr name="offColor" format="color|reference" />
+        <attr name="thumbColor" format="color|reference" />
+        <attr name="thumbPressedColor" format="color|reference" />
+        <attr name="animationVelocity" format="integer" />
+        <attr name="radius" format="integer" />
+        <attr name="measureFactor" format="float" />
+        <attr name="insetLeft" format="dimension|reference" />
+        <attr name="insetRight" format="dimension|reference" />
+        <attr name="insetTop" format="dimension|reference" />
+        <attr name="insetBottom" format="dimension|reference" />
+    </declare-styleable>
+
+    <!-- 下面是Material EditText的 -->
+    <declare-styleable name="MaterialEditText">
+
+        <!-- the base color of the line and the texts. default is black. -->
+        <attr name="baseColor" format="color" />
+        <!-- the highlight color of the line, and the floating label if the highlightFloatingLabel is true. -->
+        <attr name="primaryColor" format="color" />
+        <!-- how the floating label should be shown. default is none -->
+        <attr name="floatingLabel">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="highlight" value="2" />
+        </attr>
+        <!-- the color for when something is wrong.(e.g. exceeding max characters) -->
+        <attr name="errorColor" format="color" />
+        <!-- characters count limit. 0 means no limit. -->
+        <attr name="maxCharacters" format="integer" />
+        <!-- whether to show the bottom ellipsis in singleLine mode -->
+        <attr name="singleLineEllipsis" format="boolean" />
+        <attr name="lineColor" format="color" />
+    </declare-styleable>
+
+    <!-- Material CheckBox Attribute -->
+    <declare-styleable name="CheckBox">
+        <attr name="checkbox_color" format="color" />
+        <attr name="checkbox_checked_color" format="color" />
+    </declare-styleable>
+    
+</resources>

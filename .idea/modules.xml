@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IHouse.iml" filepath="$PROJECT_DIR$/IHouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core_ng/core_ng.iml" filepath="$PROJECT_DIR$/core_ng/core_ng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findhouse/findhouse.iml" filepath="$PROJECT_DIR$/findhouse/findhouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/house/house.iml" filepath="$PROJECT_DIR$/house/house.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jishou/jishou.iml" filepath="$PROJECT_DIR$/jishou/jishou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/widget_sky/widget_sky.iml" filepath="$PROJECT_DIR$/widget_sky/widget_sky.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youjia/youjia.iml" filepath="$PROJECT_DIR$/youjia/youjia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zufang/zufang.iml" filepath="$PROJECT_DIR$/zufang/zufang.iml" />
+    </modules>
+  </component>
+</project>

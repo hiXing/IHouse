@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@id/detailTitlebar"
+        layout="@layout/titlebar_detail" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white" />
+    
+    <!-- <LinearLayout
+        android:id="@+id/linear_top_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="-18dp"
+        android:gravity="center"
+        android:orientation="horizontal" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_entire_rent"
+            style="@style/TextMidBlack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/ic_entire_rent"
+            android:gravity="center"
+            android:text="整租" />
+
+        <TextView
+            android:id="@+id/tv_joint_rent"
+            style="@style/TextMidBlack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/ic_joint_rent"
+            android:gravity="center"
+            android:text="合租" />
+
+        <TextView
+            android:id="@+id/tv_publish_house"
+            style="@style/TextMidBlack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/ic_publish"
+            android:gravity="center"
+            android:text="发布房源" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_update_msg"
+        style="@style/TextMidGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="" />
+
+
+    <ListView
+        android:id="@+id/lv_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/color_full_transparent"
+        android:dividerHeight="2dp"
+        android:listSelector="@color/color_full_transparent" 
+        android:padding="5dp"/>
+
+</LinearLayout>
